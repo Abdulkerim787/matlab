@@ -3,10 +3,10 @@ close all;
 clear all;
 %modulating signal
 m=1;
-Emmax=10;   %amp of modulating signal
-fm=1000;  %freq of modulating signal
+Emmax=5;   %amp of modulating signal
+fm=2000;  %freq of modulating signal
 Ta=1/fm;
-t=0:Ta/555:3*Ta;
+t=0:Ta/999:6*Ta;
 Emt=Emmax*sin(2*pi*fm*t);
 figure(1)
 subplot(3,1,1);
